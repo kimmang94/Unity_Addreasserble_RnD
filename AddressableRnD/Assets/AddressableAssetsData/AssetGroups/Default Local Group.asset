@@ -16,7 +16,17 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 36b8f63d86cb5554c823eb4fd99699e4
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: b09a13bc43cb1d04198d22bcc1f8abf8
+    m_Address: Assets/NewSurfaceShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ce79c329c6ae234d8a6d5e360d8abb7
+    m_Address: MyCube
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d757038e022a2804894d4574b23a5829, type: 2}
   m_SchemaSet:
