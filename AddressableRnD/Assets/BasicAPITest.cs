@@ -5,6 +5,10 @@ using UnityEngine.AddressableAssets;
 
 public class BasicAPITest : MonoBehaviour
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
     IEnumerator Start()
     {
         // 초기화
@@ -30,4 +34,13 @@ public class BasicAPITest : MonoBehaviour
         Addressables.Release(loadHandle);
         
     }
+<<<<<<< HEAD
+=======
+
+
+    void Update()
+    {
+        
+    }
+>>>>>>> origin/main
 }
