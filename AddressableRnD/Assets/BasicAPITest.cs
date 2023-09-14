@@ -5,10 +5,7 @@ using UnityEngine.AddressableAssets;
 
 public class BasicAPITest : MonoBehaviour
 {
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main
     IEnumerator Start()
     {
         // 초기화
@@ -20,9 +17,9 @@ public class BasicAPITest : MonoBehaviour
         yield return loadHandle;
         // 인스턴스 생성
         // => Reference Count + 1
-        var instantiateHandle =Addressables.InstantiateAsync("MyCube");
+        var instantiateHandle = Addressables.InstantiateAsync("MyCube");
         GameObject createdObject = null;
-        instantiateHandle.Completed += (result) => { createdObject = result.Result;};
+        instantiateHandle.Completed += (result) => { createdObject = result.Result; };
         yield return instantiateHandle;
 
         yield return new WaitForSeconds(3f);
@@ -32,15 +29,12 @@ public class BasicAPITest : MonoBehaviour
         // 에셋 언로드
         // Reference Count - 1
         Addressables.Release(loadHandle);
-        
+
     }
-<<<<<<< HEAD
-=======
 
 
     void Update()
     {
-        
+
     }
->>>>>>> origin/main
 }
